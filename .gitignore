@@ -1,0 +1,41 @@
+# Ignore Colab checkpoints
+.ipynb_checkpoints/
+
+# Ignore dataset files (optional, if not needed on GitHub)
+dataset/
+data/
+*.zip
+*.tar
+*.tar.gz
+*.rar
+
+# Ignore model weights & logs (optional, unless you want to save them)
+*.pth
+*.pt
+*.h5
+logs/
+saved_models/
+
+# Ignore temporary system files
+.DS_Store
+Thumbs.db
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environment files
+venv/
+env/
+*.venv/
+Pipfile
+Pipfile.lock
+
+# Ignore Jupyter Notebook metadata
+.ipynb_checkpoints/
+
+# Ignore Google Drive mounts (if using Colab)
+drive/
+
+# Ignore TensorBoard logs (if using for visualization)
+runs/
